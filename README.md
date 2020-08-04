@@ -44,7 +44,7 @@ This also set's an environment variable that points to the signed release file
 ## Example usage
 
 ```yaml
-uses: brij09/android-signing@master
+uses: YOVO-LABS/android-signing@master
 with:
   releaseDirectory: app/build/outputs/apk/release
   signingKeyBase64: ${{ secrets.SIGNING_KEY }}
